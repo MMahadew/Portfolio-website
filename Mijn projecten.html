@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="MyStyle2.css">
+    </head>
+    <body>
+        <ul>
+            
+                <li><a href="HomeTest2.html">Home</a></li>
+                <div class="dropdown">
+                  <button class="dropbtn">Over mij 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="Motivatie.html">Motivatie</a>
+                    <a href="Mijn eigenschappen.html">Mijn eigenschappen</a>
+                    <a href="Mijn projecten.html">Mijn projecten</a>
+                    <a href="Mijn Beroepsprofiel.html">Mijn Beroepsprofiel</a>
+                  </div>
+                </div>
+                <li><a href="Contact2.html">Contact</a></li> 
+              
+        </ul>
+        <button class="btn-toggle">Toggle Dark-Mode</button>
+
+        <div class="row align-items-center">
+            <div class="col-12">
+              <h2 class= "Tekst">Projecten van mij</h2>
+              <img src="Images/Mijn projecten.jpg" alt="foto van een puzzel als project" style="width:550px;height:400px;" class= "center">
+            </div>
+            <div class="col-12">
+                <h3 class= "Tekst">Dit is een rekenmachine</h3>
+                <div>
+                    <input id="a" type="text"/>
+                    <input id="b" type="text"/>
+                    <input type="button" onclick="sum()" value="sum"/>
+                    <input type="button" onclick="rest()" value="rest"/>
+                    <input type="button" onclick="mult()" value="multiply"/>
+                    <input type="button" onclick="div()" value="divide"/>
+                </div>
+                <hr size="30" noshade>
+                <div class="col-12">
+                  <canvas id="myCanvas" width="480" height="320"></canvas>
+                </div>
+            </div>
+
+            <div class="row">    <div class="col">        <hr/>        <p class="text-center">            Copyright - (C) 2018 www        </p>    </div></div>
+
+            <script src="Javascript2.js"></script>       
+    </body>
+</html>
